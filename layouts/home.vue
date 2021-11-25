@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-food 2xl:w-1/2 mx-auto">
+  <div class="bg-food w-full 3xl:w-1/2 mx-auto">
     <Header />
     <Nuxt />
     <Footer />

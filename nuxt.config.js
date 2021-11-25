@@ -1,13 +1,7 @@
 export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
-
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'server',
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'elemes',
+    title: 'elemes-food',
     htmlAttrs: {
       lang: 'en'
     },
@@ -25,6 +19,8 @@ export default {
       { src: 'https://code.iconify.design/2/2.1.0/iconify.min.js', defer: true }
     ]
   },
+
+  ssr: false,
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -45,22 +41,9 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
   ],
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    loaders: {
-      sass: {
-        implementation: require('sass'),
-      },
-      scss: {
-        implementation: require('sass'),
-      },
-    },
   }
 }
